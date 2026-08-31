@@ -11,7 +11,7 @@ import { BUSINESS_INFO, SITE_URL } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "COOL FIX REPAIR | Doorstep Appliance Repair Mumbai, Navi Mumbai & Thane (₹299 Visit)",
-  description: `Doorstep refrigerator repair, washing machine repair, microwave oven repair & AC repair in Mumbai, Navi Mumbai & Thane. ₹299 visiting charge, 6-month warranty with proper bill. Call ${BUSINESS_INFO.phone}.`,
+  description: `Doorstep refrigerator repair, washing machine repair, microwave oven repair & AC repair in Mumbai, Navi Mumbai & Thane. ₹299 visiting charge, 1-year warranty with proper bill. Call ${BUSINESS_INFO.phone}.`,
   alternates: {
     canonical: "/",
   },

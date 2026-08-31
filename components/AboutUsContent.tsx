@@ -34,7 +34,7 @@ export default function AboutUsContent() {
             className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-slate-800 border border-slate-700 text-xs font-semibold text-brand-300 mb-4"
           >
             <Award className="w-4 h-4 text-brand-400" />
-            <span>6 Years Qualified Technician Experience</span>
+            <span>10 Years Qualified Technician Experience</span>
           </motion.div>
 
           <motion.h1
@@ -76,7 +76,7 @@ export default function AboutUsContent() {
             </p>
 
             <p className="text-sm sm:text-base leading-relaxed">
-              With <strong>6 years of technician experience</strong>, we have diagnosed and repaired thousands of appliances across Mumbai, Navi Mumbai, and Thane. Our technicians are qualified, experienced, and equipped with the specialized diagnostic instruments required for modern inverter compressors, smart PCB motherboards, and complex mechanical assemblies.
+              With <strong>10 Years of technician experience</strong>, we have diagnosed and repaired thousands of appliances across Mumbai, Navi Mumbai, and Thane. Our technicians are qualified, experienced, and equipped with the specialized diagnostic instruments required for modern inverter compressors, smart PCB motherboards, and complex mechanical assemblies.
             </p>
 
             <div className="bg-white border border-slate-200 rounded-2xl p-6 space-y-4 shadow-sm">
@@ -96,11 +96,11 @@ export default function AboutUsContent() {
                 </div>
                 <div className="flex items-start gap-2.5">
                   <CheckCircle2 className="w-4 h-4 text-emerald-600 flex-shrink-0 mt-0.5" />
-                  <span><strong>6-Month Warranty:</strong> Written warranty with official bill.</span>
+                  <span><strong>1-year Warranty:</strong> Written warranty with official bill.</span>
                 </div>
                 <div className="flex items-start gap-2.5">
                   <CheckCircle2 className="w-4 h-4 text-emerald-600 flex-shrink-0 mt-0.5" />
-                  <span><strong>1-Year Warranty Option:</strong> Available on customer request.</span>
+                  <span><strong>Extended Warranty Option:</strong> Available on customer request.</span>
                 </div>
               </div>
             </div>
@@ -149,7 +149,7 @@ export default function AboutUsContent() {
 
                 <div className="flex items-start justify-between gap-4 py-2 border-b border-slate-800">
                   <span className="text-slate-400 text-xs uppercase font-semibold">Experience</span>
-                  <span className="text-white font-bold text-right">6 Years Qualified Experience</span>
+                  <span className="text-white font-bold text-right">10 Years Qualified Experience</span>
                 </div>
 
                 <div className="flex items-start justify-between gap-4 py-2 border-b border-slate-800">
@@ -159,7 +159,7 @@ export default function AboutUsContent() {
 
                 <div className="flex items-start justify-between gap-4 py-2 border-b border-slate-800">
                   <span className="text-slate-400 text-xs uppercase font-semibold">Warranty Policy</span>
-                  <span className="text-white font-bold text-right">6 Months with Bill (1-Yr Option)</span>
+                  <span className="text-white font-bold text-right">1-year with Bill (Extended-Yr Option)</span>
                 </div>
 
                 <div className="flex items-start justify-between gap-4 py-2 border-b border-slate-800">

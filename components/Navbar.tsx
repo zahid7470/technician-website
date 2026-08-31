@@ -34,7 +34,7 @@ export default function Navbar() {
           <div className="flex items-center gap-4 text-xs font-medium">
             <span className="flex items-center gap-1.5 text-emerald-400">
               <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
-              Doorstep Service @ ₹299 Visit Charge
+             Doorstep Visit @ ₹299 • Technician in 40–60 Min
             </span>
             <span className="hidden md:flex items-center gap-1 text-slate-400">
               <Clock className="w-3.5 h-3.5 text-brand-400" />

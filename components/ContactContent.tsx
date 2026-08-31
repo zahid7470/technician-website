@@ -132,7 +132,7 @@ export default function ContactContent() {
                       ₹299 (Fixed Diagnostic Charge)
                     </div>
                     <div className="text-[11px] text-emerald-800 mt-0.5">
-                      6-month warranty provided with official bill on all repairs.
+                      1-year warranty provided with official bill on all repairs.
                     </div>
                   </div>
                 </div>

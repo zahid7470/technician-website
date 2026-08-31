@@ -42,7 +42,7 @@ export default function WhatsAppForm({ initialService = "", onSuccess, isModal =
 *Issue Description:* ${issue.trim() || "Inspection & Diagnosis needed"}
 ━━━━━━━━━━━━━━━━━━━━
 *Doorstep Visiting Charge:* ₹299 (Acknowledged)
-*Warranty Requested:* 6-Month Warranty with Bill
+*Warranty Requested:* 1-year Warranty with Bill
 
 Please confirm technician availability.`;
 
@@ -62,7 +62,7 @@ Please confirm technician availability.`;
       <div className="bg-sky-50 border border-sky-200 rounded-xl p-3 flex items-start gap-2.5 text-xs text-sky-900">
         <CheckCircle2 className="w-4 h-4 text-sky-600 flex-shrink-0 mt-0.5" />
         <div>
-          <span className="font-semibold">Quick Doorstep Booking:</span> Visiting charge is <strong className="text-sky-950 font-bold">₹299</strong> with 6-month warranty on genuine spare parts.
+          <span className="font-semibold">Quick Doorstep Booking:</span> Visiting charge is <strong className="text-sky-950 font-bold">₹299</strong> with 1-year warranty on genuine spare parts.
         </div>
       </div>
 

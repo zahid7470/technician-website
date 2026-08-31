@@ -31,7 +31,7 @@ export default function CTASection() {
 
         <Reveal delay={0.2}>
           <p className="text-sm sm:text-base text-slate-300 max-w-2xl mx-auto leading-relaxed">
-            Book your doorstep visit today for just <strong>₹299</strong>. We repair Refrigerators, Washing Machines, Microwave Ovens & ACs with <strong>genuine spare parts</strong> and a <strong>6-month warranty with proper bill</strong>.
+            Book your doorstep visit today for just <strong>₹299</strong>. We repair Refrigerators, Washing Machines, Microwave Ovens & ACs with <strong>genuine spare parts</strong> and a <strong>1-year warranty with proper bill</strong>.
           </p>
         </Reveal>
 
@@ -59,7 +59,7 @@ export default function CTASection() {
         <Reveal delay={0.4} variants={scaleIn}>
           <div className="pt-2 flex items-center justify-center gap-2 text-xs text-slate-400">
             <ShieldCheck className="w-4 h-4 text-emerald-400" />
-            <span>Managed by Zaheer Ahmed Ansari • 6 Years Technician Experience</span>
+            <span>Managed by Zaheer Ahmed Ansari • 10 Years Technician Experience</span>
           </div>
         </Reveal>
       </div>

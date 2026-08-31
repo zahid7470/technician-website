@@ -70,7 +70,7 @@ export default function ServicesContent() {
             transition={{ duration: 0.5, delay: 0.35, ease: customEase }}
             className="text-base sm:text-lg text-slate-300 max-w-2xl mt-4 leading-relaxed"
           >
-            Professional doorstep repair and maintenance for all domestic and commercial brands across Mumbai, Navi Mumbai, and Thane. Genuine spare parts backed by a 6-month warranty.
+            Professional doorstep repair and maintenance for all domestic and commercial brands across Mumbai, Navi Mumbai, and Thane. Genuine spare parts backed by a 1-year warranty.
           </motion.p>
 
           <motion.div
@@ -180,11 +180,11 @@ export default function ServicesContent() {
                 <div className="space-y-3 text-xs sm:text-sm text-slate-700">
                   <div className="flex items-center gap-2">
                     <ShieldCheck className="w-4 h-4 text-emerald-600 flex-shrink-0" />
-                    <span><strong>6-Month Warranty</strong> on genuine spare parts</span>
+                    <span><strong>1-year Warranty</strong> on genuine spare parts</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <Wrench className="w-4 h-4 text-brand-600 flex-shrink-0" />
-                    <span><strong>1-Year Warranty</strong> option available on request</span>
+                    <span><strong>Extended Warranty</strong> option available on request</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <Clock className="w-4 h-4 text-amber-600 flex-shrink-0" />

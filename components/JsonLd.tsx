@@ -18,7 +18,7 @@ export default function JsonLd() {
         "url": SITE_URL,
         "logo": `${SITE_URL}/logo.svg`,
         "image": `${SITE_URL}/logo.svg`,
-        "description": "Doorstep all-brand appliance repair service in Mumbai, Navi Mumbai, and Thane. Expert repair for Refrigerators, Washing Machines, Microwave Ovens, and ACs with 6-month warranty and ₹299 visiting charge.",
+        "description": "Doorstep all-brand appliance repair service in Mumbai, Navi Mumbai, and Thane. Expert repair for Refrigerators, Washing Machines, Microwave Ovens, and ACs with 1-year warranty and ₹299 visiting charge.",
         "priceRange": "₹299 (Doorstep Visiting Charge)",
         "areaServed": [
           {

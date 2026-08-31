@@ -37,7 +37,7 @@ export default function ServicesSection() {
               Our Professional Repair Services
             </h2>
             <p className="text-sm sm:text-base text-slate-600 max-w-2xl mt-1">
-              Fixed ₹299 doorstep inspection & diagnosis charge across Mumbai, Navi Mumbai, and Thane. Genuine spare parts backed by a 6-month warranty.
+              Fixed ₹299 doorstep inspection & diagnosis charge across Mumbai, Navi Mumbai, and Thane. Genuine spare parts backed by a 1-year warranty.
             </p>
           </div>
 
@@ -96,7 +96,7 @@ export default function ServicesSection() {
                 {/* Action Buttons */}
                 <div className="pt-4 border-t border-slate-200/80 flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3">
                   <div className="text-xs text-slate-500 font-medium">
-                    Includes 6-Month Warranty with Bill
+                    Includes 1-year Warranty with Bill
                   </div>
 
                   <div className="flex items-center gap-2">

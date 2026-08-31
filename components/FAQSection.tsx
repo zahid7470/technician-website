@@ -16,7 +16,7 @@ export default function FAQSection() {
     },
     {
       q: "What warranty do you provide on repair services?",
-      a: "We provide a 6-month warranty with an official bill for all repairs and replaced genuine spare parts. Additionally, a 1-year warranty option is available if the customer requests it.",
+      a: "We provide a 1-year warranty with an official bill for all repairs and replaced genuine spare parts. Additionally, Extended warranty option is available if the customer requests it.",
     },
     {
       q: "Which appliance brands do you repair?",

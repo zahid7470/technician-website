@@ -8,8 +8,8 @@ import { Reveal, Stagger, StaggerItem, fadeUp, scaleIn } from "./MotionWrapper";
 export default function TrustPillars() {
   const pillars = [
     {
-      title: "6 Years Technician Experience",
-      desc: "Managed by Zaheer Ahmed Ansari with 6 years of hands-on expertise repairing domestic and commercial appliances.",
+      title: "10 Years Technician Experience",
+      desc: "Managed by Zaheer Ahmed Ansari with 10 Years of hands-on expertise repairing domestic and commercial appliances.",
       icon: <Award className="w-6 h-6 text-brand-600" />,
     },
     {
@@ -18,8 +18,8 @@ export default function TrustPillars() {
       icon: <Wrench className="w-6 h-6 text-brand-600" />,
     },
     {
-      title: "6-Month Warranty with Proper Bill",
-      desc: "Every completed repair includes a 6-month written warranty and official bill, with a 1-year warranty option on request.",
+      title: "1-year Warranty with Proper Bill",
+      desc: "Every completed repair includes a 1-year written warranty and official bill, with a Extended warranty option on request.",
       icon: <FileCheck2 className="w-6 h-6 text-brand-600" />,
     },
     {

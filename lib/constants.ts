@@ -6,10 +6,10 @@ export const BUSINESS_INFO = {
   phoneInternational: "+917506821162",
   email: "coolfixrepair01@gmail.com",
   visitingCharge: "₹299",
-  experienceYears: 6,
+  experienceYears: 10,
   warranty: {
-    standard: "6-month warranty with proper bill",
-    extended: "1-year warranty option available upon request",
+    standard: "1-year warranty with proper bill",
+    extended: "Extended warranty option available upon request",
   },
   availability: {
     regular: "8:00 AM – 9:00 PM (Monday – Sunday)",
@@ -73,25 +73,7 @@ export const BUSINESS_INFO = {
       ],
       slug: "oven-repair",
     },
-    {
-      id: "ac",
-      title: "Air Conditioner (AC) Repair",
-      shortDescription: "All-brand split, window & inverter AC repair, gas refilling & servicing.",
-      fullDescription: "Complete AC cooling and technical repair services. Our qualified technicians handle refrigerant leak testing, gas charging, compressor diagnosis, fan motor repair, PCB electronics troubleshooting, and general routine servicing.",
-      visitingCharge: "₹299",
-      types: ["Split Air Conditioners", "Window Air Conditioners", "Inverter AC Units", "Cassette / Commercial AC"],
-      commonIssues: [
-        "AC blowing warm or room-temperature air",
-        "Low refrigerant / Gas leak detection & refilling",
-        "Water dripping or leaking from indoor unit",
-        "AC compressor not starting or tripping",
-        "Foul odor or ice forming on copper coils",
-        "Remote control or sensor PCB unresponsiveness",
-        "Fan motor noise or blower failure",
-        "General deep cleaning and seasonal servicing",
-      ],
-      slug: "ac-repair",
-    },
+    
   ],
   brands: [
     "Samsung",

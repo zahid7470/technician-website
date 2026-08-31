@@ -44,7 +44,7 @@ export default function Hero() {
             >
               Expert Home Appliance Repair with{" "}
               <span className="bg-gradient-to-r from-brand-400 via-sky-300 to-emerald-400 bg-clip-text text-transparent">
-                6-Month Warranty
+                1-year Warranty
               </span>
             </motion.h1>
 
@@ -78,7 +78,7 @@ export default function Hero() {
               <div className="bg-slate-800/60 border border-slate-700/60 rounded-xl p-3 backdrop-blur-sm">
                 <div className="flex items-center gap-2 text-brand-400 font-bold text-base sm:text-lg">
                   <Wrench className="w-5 h-5 text-brand-400 flex-shrink-0" />
-                  <span>6 Years</span>
+                  <span>10 Years</span>
                 </div>
                 <div className="text-[11px] sm:text-xs text-slate-300 mt-0.5">
                   Technician Experience
@@ -129,7 +129,7 @@ export default function Hero() {
             >
               <span className="flex items-center gap-1.5">
                 <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400" />
-                6-Month Warranty with Bill
+                1-year Warranty with Bill
               </span>
               <span className="flex items-center gap-1.5">
                 <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400" />
@@ -192,21 +192,6 @@ export default function Hero() {
                     </button>
                   ))}
                 </div>
-              </div>
-
-              {/* Verified Direct Call Box */}
-              <div className="mt-5 pt-4 border-t border-slate-100 bg-slate-50 rounded-xl p-3.5 flex items-center justify-between">
-                <div className="space-y-0.5">
-                  <div className="text-[11px] text-slate-500 font-medium">Need immediate consultation?</div>
-                  <div className="text-xs font-bold text-navy-900">Direct Lead Technician</div>
-                </div>
-                <a
-                  href={`tel:${BUSINESS_INFO.phoneRaw}`}
-                  className="px-3.5 py-2 rounded-lg bg-navy-900 hover:bg-slate-800 text-white font-bold text-xs flex items-center gap-1.5 transition-colors"
-                >
-                  <Phone className="w-3.5 h-3.5 text-urgent" />
-                  <span>Call {BUSINESS_INFO.phone}</span>
-                </a>
               </div>
             </div>
           </motion.div>

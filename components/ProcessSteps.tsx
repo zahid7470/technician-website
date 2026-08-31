@@ -26,8 +26,8 @@ export default function ProcessSteps() {
     },
     {
       num: "04",
-      title: "6-Month Warranty & Bill",
-      desc: "Receive an official invoice along with a 6-month repair warranty (1-year warranty option available on request).",
+      title: "1-year Warranty & Bill",
+      desc: "Receive an official invoice along with a 1-year repair warranty (Extended warranty option available on request).",
       icon: <FileCheck className="w-6 h-6 text-brand-600" />,
     },
   ];
