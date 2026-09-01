@@ -123,4 +123,4 @@ export const BUSINESS_INFO = {
   ],
 };
 
-export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://coolfixrepair.com";
+export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://www.coolfixrepair.in";
