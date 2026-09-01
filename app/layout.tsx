@@ -29,6 +29,10 @@ export const metadata: Metadata = {
     template: `%s | ${BUSINESS_INFO.name}`,
   },
   description: `Doorstep refrigerator repair, washing machine repair, microwave oven repair & AC repair in Mumbai, Navi Mumbai & Thane. ₹299 visiting charge, 1-year warranty with bill. Call ${BUSINESS_INFO.phone}.`,
+  verification: {
+    google: "BU2S6TYxZtUGsUW2xiPKm-t9O3392i-Z7wS21gpKXC4",
+  },
+
   keywords: [
     "refrigerator repair in Mumbai",
     "refrigerator repair Mumbai",
