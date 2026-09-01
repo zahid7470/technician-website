@@ -8,6 +8,7 @@ import WhatsAppModal from "@/components/WhatsAppModal";
 import { WhatsAppBookingProvider } from "@/components/WhatsAppBookingContext";
 import JsonLd from "@/components/JsonLd";
 import { BUSINESS_INFO, SITE_URL } from "@/lib/constants";
+import Script from "next/script";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -108,6 +109,19 @@ export default function RootLayout({
     <html lang="en" className={`${inter.variable} scroll-smooth`}>
       <head>
         <JsonLd />
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-5XDQJLRN66"
+          strategy="afterInteractive"
+        />
+
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){window.dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-5XDQJLRN66');
+        `}
+        </Script>
       </head>
       <body className="min-h-screen flex flex-col overflow-x-clip bg-slate-50 text-slate-900 antialiased selection:bg-brand-500 selection:text-white">
         <WhatsAppBookingProvider>
