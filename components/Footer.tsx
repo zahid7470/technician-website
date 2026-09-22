@@ -28,7 +28,7 @@ export default function Footer() {
             </div>
 
             <p className="text-sm text-slate-400 leading-relaxed max-w-md">
-              Doorstep home appliance repair service managed by <strong>{BUSINESS_INFO.owner}</strong>. Backed by 10 Years of qualified technician experience, genuine spare parts, and a 1-year warranty with proper bill.
+              Doorstep home appliance repair service by <strong>COOL FIX REPAIR</strong>. Backed by 10 Years of qualified technician experience, genuine spare parts, and a 1-year warranty with proper bill.
             </p>
 
             <div className="bg-navy-900 border border-slate-800 rounded-xl p-4 space-y-2.5 max-w-md">
@@ -85,7 +85,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link href="/about-us" className="hover:text-brand-400 transition-colors">
-                  About Zaheer Ahmed Ansari
+                  About COOL FIX REPAIR
                 </Link>
               </li>
               <li>
@@ -154,7 +154,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
           <p>
-            © {new Date().getFullYear()} COOL FIX REPAIR. All rights reserved. Managed by Zaheer Ahmed Ansari.
+            © {new Date().getFullYear()} COOL FIX REPAIR. All rights reserved.
           </p>
           <div className="flex items-center gap-4 text-slate-400">
             <span>Visiting Charge: ₹299</span>

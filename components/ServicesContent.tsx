@@ -4,7 +4,6 @@ import React from "react";
 import { motion, useReducedMotion } from "framer-motion";
 import { BUSINESS_INFO } from "@/lib/constants";
 import { useWhatsAppBooking } from "@/components/WhatsAppBookingContext";
-import BrandStrip from "@/components/BrandStrip";
 import CTASection from "@/components/CTASection";
 import { Reveal, fadeUp, customEase } from "@/components/MotionWrapper";
 import {
@@ -70,7 +69,7 @@ export default function ServicesContent() {
             transition={{ duration: 0.5, delay: 0.35, ease: customEase }}
             className="text-base sm:text-lg text-slate-300 max-w-2xl mt-4 leading-relaxed"
           >
-            Professional doorstep repair and maintenance for all domestic and commercial brands across Mumbai, Navi Mumbai, and Thane. Genuine spare parts backed by a 1-year warranty.
+            Professional doorstep repair and maintenance for all domestic and commercial appliances across Mumbai, Navi Mumbai, and Thane. Genuine spare parts backed by a 1-year warranty.
           </motion.p>
 
           <motion.div
@@ -211,7 +210,7 @@ export default function ServicesContent() {
                 </div>
 
                 <div className="text-[11px] text-center text-slate-500">
-                  All brands supported: Samsung, Whirlpool, LG, Bosch, Godrej, IFB, Siemens, Haier & all others.
+                  All appliance makes & models supported with genuine replacement parts.
                 </div>
               </div>
             </div>
@@ -219,7 +218,6 @@ export default function ServicesContent() {
         ))}
       </section>
 
-      <BrandStrip />
       <CTASection />
     </div>
   );

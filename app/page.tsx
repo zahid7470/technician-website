@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import Hero from "@/components/Hero";
-import BrandStrip from "@/components/BrandStrip";
 import ServicesSection from "@/components/ServicesSection";
 import ServiceAreaMatrix from "@/components/ServiceAreaMatrix";
 import ProcessSteps from "@/components/ProcessSteps";
@@ -21,7 +20,6 @@ export default function HomePage() {
   return (
     <>
       <Hero />
-      <BrandStrip />
       <ServicesSection />
       <ProcessSteps />
       <TrustPillars />

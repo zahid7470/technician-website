@@ -49,7 +49,7 @@ export default function ContactContent() {
             transition={{ duration: 0.5, delay: 0.35, ease: customEase }}
             className="text-base sm:text-lg text-slate-300 max-w-2xl mt-4 leading-relaxed"
           >
-            Directly connect with <strong>{BUSINESS_INFO.name}</strong> ({BUSINESS_INFO.owner}). Call us directly or submit your inquiry below to launch a pre-filled WhatsApp message.
+            Directly connect with <strong>{BUSINESS_INFO.name}</strong>. Call us directly or submit your inquiry below to launch a pre-filled WhatsApp message.
           </motion.p>
         </div>
       </section>

@@ -137,7 +137,7 @@ export default function Hero() {
               </span>
               <span className="flex items-center gap-1.5">
                 <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400" />
-                All Major Brands Serviced
+                All Models & Makes Serviced
               </span>
             </motion.div>
           </div>

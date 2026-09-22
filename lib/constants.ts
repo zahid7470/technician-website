@@ -1,6 +1,6 @@
 export const BUSINESS_INFO = {
   name: "COOL FIX REPAIR",
-  owner: "Zaheer Ahmed Ansari",
+  owner: "COOL FIX REPAIR",
   phone: "75068 21162",
   phoneRaw: "7506821162",
   phoneInternational: "+917506821162",
@@ -19,8 +19,8 @@ export const BUSINESS_INFO = {
     {
       id: "refrigerator",
       title: "Refrigerator Repair",
-      shortDescription: "All-brand single door, double door, side-by-side & inverter fridge repair.",
-      fullDescription: "Expert doorstep diagnosis and repair for all major refrigerator brands. We resolve cooling failure, compressor faults, gas charging, defrost heater issues, thermostat replacement, and PCB board repairs using genuine spare parts.",
+      shortDescription: "Single door, double door, side-by-side & inverter fridge repair.",
+      fullDescription: "Expert doorstep diagnosis and repair for all refrigerators. We resolve cooling failure, compressor faults, gas charging, defrost heater issues, thermostat replacement, and PCB board repairs using genuine spare parts.",
       visitingCharge: "₹299",
       types: ["Single Door Refrigerator", "Double Door Refrigerator", "Side-by-Side Refrigerator", "Inverter Compressor Models", "Deep Freezers"],
       commonIssues: [
@@ -38,7 +38,7 @@ export const BUSINESS_INFO = {
     {
       id: "washing-machine",
       title: "Washing Machine Repair",
-      shortDescription: "All-brand front load, top load & semi-automatic washing machine repair.",
+      shortDescription: "Front load, top load & semi-automatic washing machine repair.",
       fullDescription: "Qualified technicians for all types of washing machines. From drum spinning faults and motor issues to drainage blockages and PCB electronic glitches, we carry out doorstep repairs with genuine replacement parts.",
       visitingCharge: "₹299",
       types: ["Front Load Fully Automatic", "Top Load Fully Automatic", "Semi-Automatic Washing Machines", "Inverter Drive Motors"],
@@ -57,7 +57,7 @@ export const BUSINESS_INFO = {
     {
       id: "oven",
       title: "Microwave & Oven Repair",
-      shortDescription: "All-brand solo, grill, convection & built-in microwave oven repair.",
+      shortDescription: "Solo, grill, convection & built-in microwave oven repair.",
       fullDescription: "Safe and certified diagnosis for domestic and commercial ovens. We fix heating problems, magnetron failures, touch membrane keypad unresponsiveness, sparking, and turntable motor defects.",
       visitingCharge: "₹299",
       types: ["Solo Microwave Oven", "Grill Microwave Oven", "Convection Microwave Oven", "Built-In Kitchen Ovens", "OTG (Oven Toaster Grill)"],
@@ -75,24 +75,7 @@ export const BUSINESS_INFO = {
     },
     
   ],
-  brands: [
-    "Samsung",
-    "Whirlpool",
-    "LG",
-    "Bosch",
-    "Siemens",
-    "Godrej",
-    "Haier",
-    "BPL",
-    "IFB",
-    "AmazonBasics",
-    "Voltas",
-    "Panasonic",
-    "Daikin",
-    "Hitachi",
-    "Carrier",
-    "Electrolux",
-  ],
+  brands: [],
   serviceAreas: [
     {
       region: "Mumbai (All Areas)",

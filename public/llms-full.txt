@@ -2,7 +2,7 @@
 
 ## 1. Official Business Information
 - **Business Name**: COOL FIX REPAIR
-- **Key Person**: Zaheer Ahmed Ansari
+- **Company**: COOL FIX REPAIR
 - **Telephone**: +91 75068 21162 / 75068 21162
 - **Email**: coolfixrepair01@gmail.com
 - **Visiting Charges**: ₹299 (Fixed doorstep inspection and diagnostic charge)
@@ -18,32 +18,21 @@
 
 ## 3. Services Offered
 
-### 3.1 Refrigerator Repair (All Brands)
+### 3.1 Refrigerator Repair
 - Single door, double door, triple door, and side-by-side refrigerators.
 - Inverter and non-inverter compressor diagnosis and replacement.
 - Gas charging, thermostat replacement, defrost heater and sensor repair, fan motor fixes, door gasket replacement, and PCB motherboard repair.
 
-### 3.2 Washing Machine Repair (All Brands)
+### 3.2 Washing Machine Repair
 - Front-load, top-load, fully-automatic, and semi-automatic washing machines.
 - Drum bearing replacement, motor repair, drain pump issues, water inlet valve fixes, suspension rod replacement, spin cycle vibration resolution, and digital control board (PCB) troubleshooting.
 
-### 3.3 Microwave & Oven Repair (All Brands)
+### 3.3 Microwave & Oven Repair
 - Solo microwave, grill microwave, convection oven, and built-in electric ovens.
 - Magnetron replacement, high-voltage diode and capacitor replacement, turntable motor repair, touch membrane and switch panel fixes, door latch sensor repair, and heating element replacement.
 
-## 4. Multi-Brand Support
-Qualified repair services for all major brands including:
-- Samsung
-- Whirlpool
-- LG
-- Bosch
-- Siemens
-- Godrej
-- Haier
-- BPL
-- IFB
-- AmazonBasics
-- And all other domestic and international appliance brands.
+## 4. Multi-Appliance Support
+Qualified repair services for all domestic and commercial makes, models, and appliance types.
 
 ## 5. Service Coverage Areas
 - **Mumbai (All Areas)**:

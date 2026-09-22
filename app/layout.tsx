@@ -51,10 +51,9 @@ export const metadata: Metadata = {
     "appliance repair Thane",
     "AC repair Thane",
     "refrigerator repair Thane",
-    "Zaheer Ahmed Ansari",
     "COOL FIX REPAIR",
   ],
-  authors: [{ name: BUSINESS_INFO.owner }],
+  authors: [{ name: BUSINESS_INFO.name }],
   creator: BUSINESS_INFO.name,
   publisher: BUSINESS_INFO.name,
   robots: {

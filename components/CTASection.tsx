@@ -59,7 +59,7 @@ export default function CTASection() {
         <Reveal delay={0.4} variants={scaleIn}>
           <div className="pt-2 flex items-center justify-center gap-2 text-xs text-slate-400">
             <ShieldCheck className="w-4 h-4 text-emerald-400" />
-            <span>Managed by Zaheer Ahmed Ansari • 10 Years Technician Experience</span>
+            <span>COOL FIX REPAIR • 10 Years Technician Experience</span>
           </div>
         </Reveal>
       </div>

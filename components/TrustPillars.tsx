@@ -9,12 +9,12 @@ export default function TrustPillars() {
   const pillars = [
     {
       title: "10 Years Technician Experience",
-      desc: "Managed by Zaheer Ahmed Ansari with 10 Years of hands-on expertise repairing domestic and commercial appliances.",
+      desc: "Delivered by COOL FIX REPAIR with 10 Years of hands-on expertise repairing domestic and commercial appliances.",
       icon: <Award className="w-6 h-6 text-brand-600" />,
     },
     {
       title: "Genuine Spare Parts Used",
-      desc: "We strictly install 100% authentic spare parts for Samsung, LG, Whirlpool, Bosch, IFB, Godrej, and all leading brands.",
+      desc: "We strictly install 100% authentic spare parts for all leading appliance makes and models.",
       icon: <Wrench className="w-6 h-6 text-brand-600" />,
     },
     {
@@ -33,8 +33,8 @@ export default function TrustPillars() {
       icon: <Clock className="w-6 h-6 text-brand-600" />,
     },
     {
-      title: "All-Brand Compatibility",
-      desc: "Comprehensive diagnostic knowledge covering refrigerators, washing machines, microwaves, ovens, and ACs of any make.",
+      title: "Multi-Appliance Expertise",
+      desc: "Comprehensive diagnostic knowledge covering refrigerators, washing machines, microwaves, ovens, and ACs.",
       icon: <CheckCircle2 className="w-6 h-6 text-brand-600" />,
     },
   ];

@@ -19,8 +19,8 @@ export default function FAQSection() {
       a: "We provide a 1-year warranty with an official bill for all repairs and replaced genuine spare parts. Additionally, Extended warranty option is available if the customer requests it.",
     },
     {
-      q: "Which appliance brands do you repair?",
-      a: "We repair all major domestic and commercial brands including Samsung, Whirlpool, LG, Bosch, Siemens, Godrej, Haier, BPL, IFB, AmazonBasics, Voltas, Panasonic, Daikin, Hitachi, Carrier, and others.",
+      q: "Which appliance brands and models do you repair?",
+      a: "We repair all major domestic and commercial appliance makes, models, and configurations with genuine replacement parts and certified doorstep diagnostics.",
     },
     {
       q: "What areas in Mumbai, Navi Mumbai, and Thane do you cover?",

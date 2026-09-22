@@ -4,7 +4,6 @@ import React from "react";
 import { motion, useReducedMotion } from "framer-motion";
 import { BUSINESS_INFO } from "@/lib/constants";
 import { useWhatsAppBooking } from "@/components/WhatsAppBookingContext";
-import BrandStrip from "@/components/BrandStrip";
 import TrustPillars from "@/components/TrustPillars";
 import CTASection from "@/components/CTASection";
 import { Reveal, fadeLeft, fadeRight, customEase } from "@/components/MotionWrapper";
@@ -52,7 +51,7 @@ export default function AboutUsContent() {
             transition={{ duration: 0.5, delay: 0.35, ease: customEase }}
             className="text-base sm:text-lg text-slate-300 max-w-2xl mt-4 leading-relaxed"
           >
-            Founded and managed by <strong>{BUSINESS_INFO.owner}</strong>, COOL FIX REPAIR provides dedicated doorstep home appliance repair across Mumbai, Navi Mumbai, and Thane.
+            <strong>COOL FIX REPAIR</strong> provides dedicated doorstep home appliance repair across Mumbai, Navi Mumbai, and Thane.
           </motion.p>
         </div>
       </section>
@@ -72,7 +71,7 @@ export default function AboutUsContent() {
             </div>
 
             <p className="text-sm sm:text-base leading-relaxed">
-              When a refrigerator stops cooling or a washing machine fails mid-cycle, household routines are immediately disrupted. <strong>COOL FIX REPAIR</strong> was established by <strong>{BUSINESS_INFO.owner}</strong> to provide homeowners and businesses with fast, transparent, and qualified doorstep appliance repair services.
+              When a refrigerator stops cooling or a washing machine fails mid-cycle, household routines are immediately disrupted. <strong>COOL FIX REPAIR</strong> was established to provide homeowners and businesses with fast, transparent, and qualified doorstep appliance repair services.
             </p>
 
             <p className="text-sm sm:text-base leading-relaxed">
@@ -143,8 +142,8 @@ export default function AboutUsContent() {
 
               <div className="space-y-4 text-sm">
                 <div className="flex items-start justify-between gap-4 py-2 border-b border-slate-800">
-                  <span className="text-slate-400 text-xs uppercase font-semibold">Lead Person</span>
-                  <span className="text-white font-bold text-right">{BUSINESS_INFO.owner}</span>
+                  <span className="text-slate-400 text-xs uppercase font-semibold">Company</span>
+                  <span className="text-white font-bold text-right">{BUSINESS_INFO.name}</span>
                 </div>
 
                 <div className="flex items-start justify-between gap-4 py-2 border-b border-slate-800">
@@ -183,7 +182,6 @@ export default function AboutUsContent() {
       </section>
 
       <TrustPillars />
-      <BrandStrip />
       <CTASection />
     </div>
   );

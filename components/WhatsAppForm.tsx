@@ -14,8 +14,7 @@ export default function WhatsAppForm({ initialService = "", onSuccess, isModal =
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
   const [service, setService] = useState(initialService || "Refrigerator Repair");
-  const [brand, setBrand] = useState("Samsung");
-  const [customBrand, setCustomBrand] = useState("");
+  const [applianceModel, setApplianceModel] = useState("");
   const [issue, setIssue] = useState("");
   const [location, setLocation] = useState("");
   const [preferredTime, setPreferredTime] = useState("Morning (8:00 AM – 12:00 PM)");
@@ -29,14 +28,12 @@ export default function WhatsAppForm({ initialService = "", onSuccess, isModal =
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
 
-    const selectedBrand = brand === "Other" ? (customBrand || "Other Brand") : brand;
-
     const messageText = `*🔧 COOL FIX REPAIR — Service Inquiry*
 ━━━━━━━━━━━━━━━━━━━━
 *Customer Name:* ${name.trim()}
 *Phone Number:* ${phone.trim()}
 *Service Required:* ${service}
-*Appliance Brand:* ${selectedBrand}
+*Appliance Model/Type:* ${applianceModel.trim() || "Inspection needed"}
 *Location / Area:* ${location.trim()}
 *Preferred Time Slot:* ${preferredTime}
 *Issue Description:* ${issue.trim() || "Inspection & Diagnosis needed"}
@@ -117,40 +114,19 @@ Please confirm technician availability.`;
         </div>
 
         <div>
-          <label htmlFor="form-brand" className="block text-xs font-semibold text-slate-700 mb-1">
-            Appliance Brand <span className="text-rose-500">*</span>
-          </label>
-          <select
-            id="form-brand"
-            value={brand}
-            onChange={(e) => setBrand(e.target.value)}
-            className="w-full px-3.5 py-2.5 text-sm rounded-lg border border-slate-300 focus:border-brand-600 focus:ring-2 focus:ring-brand-100 outline-none transition-colors bg-white"
-          >
-            {BUSINESS_INFO.brands.map((b) => (
-              <option key={b} value={b}>
-                {b}
-              </option>
-            ))}
-            <option value="Other">Other Brand</option>
-          </select>
-        </div>
-      </div>
-
-      {brand === "Other" && (
-        <div>
-          <label htmlFor="form-custom-brand" className="block text-xs font-semibold text-slate-700 mb-1">
-            Specify Brand Name
+          <label htmlFor="form-model" className="block text-xs font-semibold text-slate-700 mb-1">
+            Appliance Model / Type (Optional)
           </label>
           <input
-            id="form-custom-brand"
+            id="form-model"
             type="text"
-            value={customBrand}
-            onChange={(e) => setCustomBrand(e.target.value)}
-            placeholder="Enter appliance brand"
+            value={applianceModel}
+            onChange={(e) => setApplianceModel(e.target.value)}
+            placeholder="e.g. Double Door, Front Load, Inverter"
             className="w-full px-3.5 py-2.5 text-sm rounded-lg border border-slate-300 focus:border-brand-600 focus:ring-2 focus:ring-brand-100 outline-none transition-colors"
           />
         </div>
-      )}
+      </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
         <div>
