@@ -164,6 +164,13 @@ export default function Footer() {
             <span>Genuine Parts</span>
           </div>
         </div>
+
+        {/* Disclaimer */}
+        <div className="pt-4 border-t border-slate-800/60 mt-6 text-xs text-slate-500 leading-relaxed">
+          <p>
+            We are an independent appliance repair service provider unless otherwise specifically stated. We do not claim affiliation with or authorization from any appliance manufacturer unless such authorization is valid and documented.
+          </p>
+        </div>
       </div>
     </footer>
   );
