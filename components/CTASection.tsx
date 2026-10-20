@@ -31,7 +31,7 @@ export default function CTASection() {
 
         <Reveal delay={0.2}>
           <p className="text-sm sm:text-base text-slate-300 max-w-2xl mx-auto leading-relaxed">
-            Book your doorstep visit today for just <strong>₹299</strong>. We repair Refrigerators, Washing Machines, Microwave Ovens & ACs with <strong>genuine spare parts</strong> and a <strong>1-year warranty with proper bill</strong>.
+            Book your doorstep visit today. We repair Refrigerators, Washing Machines, Microwave Ovens & ACs with <strong>genuine spare parts</strong> and a <strong>1-year warranty with proper bill</strong>.
           </p>
         </Reveal>
 

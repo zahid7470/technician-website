@@ -5,7 +5,6 @@ export const BUSINESS_INFO = {
   phoneRaw: "7506821162",
   phoneInternational: "+917506821162",
   email: "coolfixrepair01@gmail.com",
-  visitingCharge: "₹299",
   experienceYears: 10,
   warranty: {
     standard: "1-year warranty with proper bill",
@@ -21,7 +20,6 @@ export const BUSINESS_INFO = {
       title: "Refrigerator Repair",
       shortDescription: "Single door, double door, side-by-side & inverter fridge repair.",
       fullDescription: "Expert doorstep diagnosis and repair for all refrigerators. We resolve cooling failure, compressor faults, gas charging, defrost heater issues, thermostat replacement, and PCB board repairs using genuine spare parts.",
-      visitingCharge: "₹299",
       types: ["Single Door Refrigerator", "Double Door Refrigerator", "Side-by-Side Refrigerator", "Inverter Compressor Models", "Deep Freezers"],
       commonIssues: [
         "Refrigerator not cooling or irregular cooling",
@@ -40,7 +38,6 @@ export const BUSINESS_INFO = {
       title: "Washing Machine Repair",
       shortDescription: "Front load, top load & semi-automatic washing machine repair.",
       fullDescription: "Qualified technicians for all types of washing machines. From drum spinning faults and motor issues to drainage blockages and PCB electronic glitches, we carry out doorstep repairs with genuine replacement parts.",
-      visitingCharge: "₹299",
       types: ["Front Load Fully Automatic", "Top Load Fully Automatic", "Semi-Automatic Washing Machines", "Inverter Drive Motors"],
       commonIssues: [
         "Washing machine not draining water",
@@ -59,7 +56,6 @@ export const BUSINESS_INFO = {
       title: "Microwave & Oven Repair",
       shortDescription: "Solo, grill, convection & built-in microwave oven repair.",
       fullDescription: "Safe and certified diagnosis for domestic and commercial ovens. We fix heating problems, magnetron failures, touch membrane keypad unresponsiveness, sparking, and turntable motor defects.",
-      visitingCharge: "₹299",
       types: ["Solo Microwave Oven", "Grill Microwave Oven", "Convection Microwave Oven", "Built-In Kitchen Ovens", "OTG (Oven Toaster Grill)"],
       commonIssues: [
         "Microwave runs but does not heat food",

@@ -11,8 +11,8 @@ export default function FAQSection() {
 
   const faqs = [
     {
-      q: "What is your doorstep visiting and diagnostic charge?",
-      a: "Our standard doorstep inspection and diagnostic charge is ₹299 across all service locations in Mumbai, Navi Mumbai, and Thane. Our qualified technician will inspect your appliance, identify the root cause, and provide a clear estimate before proceeding with repairs.",
+      q: "How does your doorstep inspection and repair process work?",
+      a: "Our qualified technician arrives at your doorstep across Mumbai, Navi Mumbai, or Thane to inspect your appliance, accurately identify the root cause, and explain the required repair work before proceeding with genuine spare parts.",
     },
     {
       q: "What warranty do you provide on repair services?",
@@ -51,7 +51,7 @@ export default function FAQSection() {
             Clear Answers to Common Questions
           </h2>
           <p className="text-sm sm:text-base text-slate-600 mt-2">
-            Everything you need to know about our repair charges, warranty, and doorstep process.
+            Everything you need to know about our services, warranty, and doorstep process.
           </p>
         </Reveal>
 

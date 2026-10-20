@@ -69,7 +69,7 @@ export default function WhatsAppModal() {
                   </h2>
 
                   <p className="text-xs text-slate-300">
-                    Fast Doorstep Service • ₹299 Visiting Charge
+                    Fast Doorstep Service • Genuine Parts & 1-Year Warranty
                   </p>
                 </div>
               </div>

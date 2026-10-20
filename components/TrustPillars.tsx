@@ -23,8 +23,8 @@ export default function TrustPillars() {
       icon: <FileCheck2 className="w-6 h-6 text-brand-600" />,
     },
     {
-      title: "Fixed ₹299 Visiting Charge",
-      desc: "Zero hidden charges. Transparent diagnostic and inspection fee at your doorstep across Mumbai, Navi Mumbai, and Thane.",
+      title: "Doorstep Diagnostic Service",
+      desc: "Prompt and professional doorstep inspection and root-cause diagnosis across Mumbai, Navi Mumbai, and Thane.",
       icon: <ShieldCheck className="w-6 h-6 text-brand-600" />,
     },
     {
@@ -47,7 +47,7 @@ export default function TrustPillars() {
             Why Choose COOL FIX REPAIR
           </span>
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-white mt-2">
-            Committed to Quality, Speed & Honest Pricing
+            Committed to Quality, Speed & Reliability
           </h2>
           <p className="text-sm sm:text-base text-slate-300 mt-2">
             We believe in honest technician service, clear diagnosis, and genuine parts that ensure your appliances last.

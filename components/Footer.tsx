@@ -34,7 +34,7 @@ export default function Footer() {
             <div className="bg-navy-900 border border-slate-800 rounded-xl p-4 space-y-2.5 max-w-md">
               <div className="flex items-center gap-2.5 text-xs text-slate-300">
                 <ShieldCheck className="w-4 h-4 text-emerald-400 flex-shrink-0" />
-                <span>Doorstep Visiting & Diagnosis Charge: <strong className="text-white">{BUSINESS_INFO.visitingCharge}</strong></span>
+                <span>Fast Doorstep Service Across Mumbai, Navi Mumbai & Thane</span>
               </div>
               <div className="flex items-center gap-2.5 text-xs text-slate-300">
                 <Clock className="w-4 h-4 text-brand-400 flex-shrink-0" />
@@ -80,7 +80,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link href="/services" className="hover:text-brand-400 transition-colors">
-                  All Services & Pricing
+                  All Services
                 </Link>
               </li>
               <li>
@@ -157,7 +157,7 @@ export default function Footer() {
             © {new Date().getFullYear()} COOL FIX REPAIR. All rights reserved.
           </p>
           <div className="flex items-center gap-4 text-slate-400">
-            <span>Visiting Charge: ₹299</span>
+            <span>Doorstep Service</span>
             <span>•</span>
             <span>1-year Warranty</span>
             <span>•</span>

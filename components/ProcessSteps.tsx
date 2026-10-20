@@ -14,7 +14,7 @@ export default function ProcessSteps() {
     },
     {
       num: "02",
-      title: "Doorstep Visit @ ₹299",
+      title: "Doorstep Inspection",
       desc: "Our qualified technician arrives at your doorstep to inspect and diagnose the appliance issue accurately.",
       icon: <Wrench className="w-6 h-6 text-brand-600" />,
     },

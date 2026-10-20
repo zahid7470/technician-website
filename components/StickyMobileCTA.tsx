@@ -20,7 +20,7 @@ export default function StickyMobileCTA() {
           <Phone className="w-4 h-4 text-urgent animate-bounce" />
           <div className="flex flex-col text-left">
             <span className="leading-tight">Call Now</span>
-            <span className="text-[10px] text-slate-300 font-medium">₹299 Visit</span>
+            <span className="text-[10px] text-slate-300 font-medium">Doorstep Visit</span>
           </div>
         </a>
 

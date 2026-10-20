@@ -91,7 +91,7 @@ export default function AboutUsContent() {
                 </div>
                 <div className="flex items-start gap-2.5">
                   <CheckCircle2 className="w-4 h-4 text-emerald-600 flex-shrink-0 mt-0.5" />
-                  <span><strong>Fixed ₹299 Visit Fee:</strong> Complete doorstep diagnosis.</span>
+                  <span><strong>Doorstep Service:</strong> Complete appliance diagnosis & repair.</span>
                 </div>
                 <div className="flex items-start gap-2.5">
                   <CheckCircle2 className="w-4 h-4 text-emerald-600 flex-shrink-0 mt-0.5" />
@@ -152,8 +152,8 @@ export default function AboutUsContent() {
                 </div>
 
                 <div className="flex items-start justify-between gap-4 py-2 border-b border-slate-800">
-                  <span className="text-slate-400 text-xs uppercase font-semibold">Visiting Fee</span>
-                  <span className="text-emerald-400 font-extrabold text-right">₹299 (Doorstep Diagnosis)</span>
+                  <span className="text-slate-400 text-xs uppercase font-semibold">Service Mode</span>
+                  <span className="text-emerald-400 font-extrabold text-right">Doorstep Inspection & Repair</span>
                 </div>
 
                 <div className="flex items-start justify-between gap-4 py-2 border-b border-slate-800">

@@ -55,7 +55,7 @@ export default function Hero() {
               transition={{ duration: 0.5, delay: 0.35, ease: customEase }}
               className="text-base sm:text-lg text-slate-300 leading-relaxed max-w-2xl mx-auto lg:mx-0"
             >
-              Qualified & experienced technicians for <strong>Refrigerator</strong>, <strong>Washing Machine</strong>, <strong>Microwave Oven</strong> & <strong>AC Repair</strong>. Doorstep inspection at only <strong>₹299</strong> with genuine spare parts.
+              Qualified & experienced technicians for <strong>Refrigerator</strong>, <strong>Washing Machine</strong>, <strong>Microwave Oven</strong> & <strong>AC Repair</strong>. Doorstep inspection and repair with genuine spare parts.
             </motion.p>
 
             {/* Above-the-fold Quick Stats / Trust Points */}
@@ -68,10 +68,10 @@ export default function Hero() {
               <div className="bg-slate-800/60 border border-slate-700/60 rounded-xl p-3 backdrop-blur-sm">
                 <div className="flex items-center gap-2 text-brand-400 font-bold text-base sm:text-lg">
                   <ShieldCheck className="w-5 h-5 text-emerald-400 flex-shrink-0" />
-                  <span>₹299</span>
+                  <span>1 Year</span>
                 </div>
                 <div className="text-[11px] sm:text-xs text-slate-300 mt-0.5">
-                  Visiting & Diagnosis
+                  Warranty with Bill
                 </div>
               </div>
 
@@ -160,7 +160,7 @@ export default function Hero() {
                       Fast Doorstep Service
                     </h2>
                     <p className="text-xs text-slate-500">
-                      Standard visiting charge: ₹299
+                      Doorstep Inspection & Repair
                     </p>
                   </div>
                 </div>
@@ -186,7 +186,7 @@ export default function Hero() {
                         {svc.title}
                       </span>
                       <span className="text-[10px] text-slate-500 mt-1 flex items-center justify-between">
-                        <span>Visit: ₹299</span>
+                        <span>Doorstep Service</span>
                         <span className="text-whatsapp-dark font-semibold group-hover:translate-x-0.5 transition-transform">→</span>
                       </span>
                     </button>

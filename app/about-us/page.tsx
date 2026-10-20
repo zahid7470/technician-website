@@ -4,7 +4,7 @@ import AboutUsContent from "@/components/AboutUsContent";
 
 export const metadata: Metadata = {
   title: "About Us — COOL FIX REPAIR",
-  description: "Learn about COOL FIX REPAIR. 10 Years of hands-on appliance repair experience across Mumbai, Navi Mumbai, and Thane. ₹299 visit fee.",
+  description: "Learn about COOL FIX REPAIR. 10 Years of hands-on appliance repair experience across Mumbai, Navi Mumbai, and Thane. Genuine spare parts & 1-year warranty.",
   alternates: {
     canonical: "/about-us",
   },

@@ -121,18 +121,18 @@ export default function ContactContent() {
                   </div>
                 </div>
 
-                {/* Visiting Charge Box */}
+                {/* Doorstep Quality Assurance Box */}
                 <div className="flex items-start gap-4 p-4 rounded-xl bg-emerald-50/80 border border-emerald-200 text-emerald-950">
                   <div className="w-12 h-12 rounded-xl bg-white border border-emerald-200 flex items-center justify-center text-emerald-600 shadow-sm flex-shrink-0">
                     <ShieldCheck className="w-6 h-6" />
                   </div>
                   <div>
-                    <div className="text-xs font-semibold text-emerald-800">Doorstep Inspection Fee</div>
+                    <div className="text-xs font-semibold text-emerald-800">Quality Assurance</div>
                     <div className="text-base font-black text-emerald-950">
-                      ₹299 (Fixed Diagnostic Charge)
+                      1-Year Warranty with Bill
                     </div>
                     <div className="text-[11px] text-emerald-800 mt-0.5">
-                      1-year warranty provided with official bill on all repairs.
+                      Genuine spare parts & verified technicians for every repair.
                     </div>
                   </div>
                 </div>

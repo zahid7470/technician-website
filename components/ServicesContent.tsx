@@ -51,7 +51,7 @@ export default function ServicesContent() {
             className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-slate-800 border border-slate-700 text-xs font-semibold text-brand-300 mb-4"
           >
             <ShieldCheck className="w-4 h-4 text-emerald-400" />
-            <span>Doorstep Diagnosis Fee: ₹299 (Fixed)</span>
+            <span>Fast Doorstep Appliance Repair Service</span>
           </motion.div>
 
           <motion.h1
@@ -164,14 +164,14 @@ export default function ServicesContent() {
                 </div>
               </div>
 
-              {/* Right Pricing & Quick Book Card */}
+              {/* Right Service Details & Quick Book Card */}
               <div className="lg:col-span-5 bg-slate-50 border border-slate-200 rounded-xl p-6 space-y-6">
                 <div className="border-b border-slate-200 pb-4">
-                  <div className="text-xs text-slate-500 font-medium">Doorstep Inspection Fee</div>
-                  <div className="text-3xl font-black text-navy-900 mt-1">
-                    {svc.visitingCharge}
-                    <span className="text-xs font-normal text-slate-500 ml-2">
-                      (Includes full diagnosis)
+                  <div className="text-xs text-slate-500 font-medium">Service Delivery</div>
+                  <div className="text-2xl font-black text-navy-900 mt-1">
+                    Doorstep Service
+                    <span className="block text-xs font-normal text-slate-500 mt-0.5">
+                      Fast 40–60 Min Response Time
                     </span>
                   </div>
                 </div>

@@ -5,7 +5,7 @@
 - **Company**: COOL FIX REPAIR
 - **Telephone**: +91 75068 21162 / 75068 21162
 - **Email**: coolfixrepair01@gmail.com
-- **Visiting Charges**: ₹299 (Fixed doorstep inspection and diagnostic charge)
+- **Service Mode**: Doorstep inspection and repair service
 - **Business Type**: Doorstep Home Appliance Repair and Maintenance Service
 - **Technician Experience**: 10 Years of qualified, hands-on technician experience
 - **Parts Policy**: Genuine spare parts used for all repairs
@@ -44,6 +44,6 @@ Qualified repair services for all domestic and commercial makes, models, and app
 
 ## 6. How Service Works
 1. **Book Inspection**: Call 75068 21162 or send a pre-filled WhatsApp message.
-2. **Doorstep Visit**: Technician arrives with tools and diagnostic equipment (Visiting charge: ₹299).
+2. **Doorstep Visit**: Technician arrives with tools and diagnostic equipment to inspect and diagnose the appliance.
 3. **Genuine Parts Repair**: Clear explanation of issue and installation of genuine replacement parts.
 4. **Invoice & Warranty**: 1-year warranty provided with official bill (1-year warranty option available upon request).

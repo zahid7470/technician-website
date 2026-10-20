@@ -20,7 +20,7 @@ export default function ServiceAreaMatrix() {
             Service Areas Across Mumbai, Navi Mumbai & Thane
           </h2>
           <p className="text-sm sm:text-base text-slate-600 mt-2">
-            Our qualified technicians provide doorstep service across all key regions with our standard <strong>₹299</strong> inspection charge.
+            Our qualified technicians provide fast and reliable doorstep appliance repair service across all key regions.
           </p>
         </Reveal>
 
@@ -62,7 +62,7 @@ export default function ServiceAreaMatrix() {
 
                 <div className="pt-4 border-t border-slate-100 flex items-center justify-between gap-2">
                   <span className="text-xs font-bold text-slate-700">
-                    Visit Fee: ₹299
+                    Same-Day Available
                   </span>
                   <button
                     onClick={() => openBookingModal(`Service in ${area.region}`)}

@@ -26,10 +26,10 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: `${BUSINESS_INFO.name} | Doorstep Appliance Repair Mumbai, Navi Mumbai & Thane (₹299 Visit)`,
+    default: `${BUSINESS_INFO.name} | Doorstep Appliance Repair Mumbai, Navi Mumbai & Thane`,
     template: `%s | ${BUSINESS_INFO.name}`,
   },
-  description: `Doorstep refrigerator repair, washing machine repair, microwave oven repair & AC repair in Mumbai, Navi Mumbai & Thane. ₹299 visiting charge, 1-year warranty with bill. Call ${BUSINESS_INFO.phone}.`,
+  description: `Doorstep refrigerator repair, washing machine repair, microwave oven repair & AC repair in Mumbai, Navi Mumbai & Thane. Genuine spare parts, 1-year warranty with bill. Call ${BUSINESS_INFO.phone}.`,
   verification: {
     google: "BU2S6TYxZtUGsUW2xiPKm-t9O3392i-Z7wS21gpKXC4",
   },
@@ -73,7 +73,7 @@ export const metadata: Metadata = {
     url: SITE_URL,
     siteName: BUSINESS_INFO.name,
     title: `${BUSINESS_INFO.name} — Appliance Repair Mumbai, Navi Mumbai & Thane`,
-    description: `Doorstep all-brand refrigerator, washing machine, oven, and AC repair. ₹299 visiting charge, 1-year warranty with bill. Call ${BUSINESS_INFO.phone}.`,
+    description: `Doorstep all-brand refrigerator, washing machine, oven, and AC repair. Genuine spare parts, 1-year warranty with bill. Call ${BUSINESS_INFO.phone}.`,
     images: [
       {
         url: `${SITE_URL}/logo.svg`,
@@ -86,7 +86,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: `${BUSINESS_INFO.name} — Appliance Repair Mumbai`,
-    description: `Fast doorstep appliance repair in Mumbai, Navi Mumbai & Thane. ₹299 visit charge, 1-year warranty. Call ${BUSINESS_INFO.phone}.`,
+    description: `Fast doorstep appliance repair in Mumbai, Navi Mumbai & Thane. Genuine spare parts, 1-year warranty. Call ${BUSINESS_INFO.phone}.`,
     images: [`${SITE_URL}/logo.svg`],
   },
   icons: {
